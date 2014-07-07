@@ -1116,6 +1116,12 @@ ul.grid li a,ul.grid li img {
 
 /* contanct
  **************************************************/
+.contact-img img {
+	height: auto;
+	width: 90%;
+	margin: 0 5%;
+}
+
 .contact-office {
 	background: #fff url('../img/contact-bg-1.png') no-repeat;
 }
