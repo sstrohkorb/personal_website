@@ -8,6 +8,11 @@ body {
     font-family: 'Noto Sans', serif;
     margin-bottom: 54px;
 }
+@media (max-width: 992px) {
+    body {
+        margin-bottom: 110px;
+    }
+}
 hr {
     border-top: 1px solid #2ECC40;
 }
@@ -34,18 +39,50 @@ hr {
   width: 100%;
 }
 .footer-address {
+    float: left;
     font-size: 14px;
     line-height: 16px;
     padding: 9px 0px;
     text-align: center;
+    width: 33%;
 }
 .footer-email {
+    float: left;
     font-size: 15px;
     line-height: 16px;
     padding: 9px 0px;
+    width: 33%;
 }
 .footer-social-media-icons {
+    float: left;
     text-align: right;
+    width: 33%;
+}
+@media(max-width: 992px){
+    .footer {
+        height: 110px;
+        padding: 4px 0px;
+    }
+    .footer-address {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 6px 0px;
+        text-align: center;
+        font-weight: bold;
+        width: 100%;
+    }
+    .footer-email {
+        font-size: 15px;
+        line-height: 16px;
+        padding: 6px 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .footer-social-media-icons {
+        padding: 6px 0px;
+        text-align: center;
+        width: 100%;
+    }
 }
 .light-grey-background {
     background-color: #f3f3f3;
